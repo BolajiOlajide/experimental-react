@@ -4,6 +4,7 @@
     ["latest-node", { "target": "current" }]
   ],
   "plugins": [
-    ["transform-class-properties", { "spec": true }]
+    ["transform-class-properties", { "spec": true }],
+    "@babel/plugin-syntax-dynamic-import"
   ]
 }

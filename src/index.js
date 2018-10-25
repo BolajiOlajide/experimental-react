@@ -1,12 +1,9 @@
 import React, { Fragment } from "react";
 import { render } from "react-dom";
-import Counter from './counter';
+import Home from './home';
 
 
 render(
-  <Fragment>
-    <h1> I'm Working! </h1>
-    <Counter />
-  </Fragment>,
+  <Home />,
   document.getElementById("app")
 );
