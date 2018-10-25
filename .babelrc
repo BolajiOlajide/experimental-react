@@ -1,0 +1,9 @@
+{
+  "presets": [
+    "@babel/preset-react",
+    ["latest-node", { "target": "current" }]
+  ],
+  "plugins": [
+    ["transform-class-properties", { "spec": true }]
+  ]
+}
