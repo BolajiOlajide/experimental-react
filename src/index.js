@@ -1,8 +1,12 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { render } from "react-dom";
+import Counter from './counter';
 
 
 render(
-  <h1> I'm Working! </h1>,
+  <Fragment>
+    <h1> I'm Working! </h1>
+    <Counter />
+  </Fragment>,
   document.getElementById("app")
 );
